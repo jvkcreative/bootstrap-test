@@ -1,0 +1,225 @@
+body{
+	background-color: #005ea1;
+}
+.wrap{
+	width: 100%;
+}
+.wrap-nav{
+	background-color: #162840;
+}
+.wrap-signup{
+	border-top: 1px solid #f6f6f6;
+}
+.wrap-textblock{
+	border-bottom: 5px solid #00c0df;
+}
+.wrap-footer{
+	background-color: #222222;
+	color: #f6f6f6;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-header{
+	position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+	background-color: #162840;
+}
+.navbar-nav li>a{
+	margin: 10px;
+}
+.navbar-brand{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -20px;
+	float: none;
+	padding: 5px 15px;
+}
+.nav-logo{
+	height: 40px;
+}
+.navbar-toggle{
+	margin: 0;
+	height: 50px;
+	color: #ffffff;
+}
+.navbar-toggle .icon-bar{
+	background-color: #ffffff;
+}
+.toggle-icon{
+	float: left;
+	padding-right: 10px;
+}
+.navbar-collapse{
+	background-color: #f3f3f3;
+}
+.no-href{
+	padding: 10px 15px;
+	line-height: 20px;
+}
+.list-group{
+	padding: 10px 10px;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.list-group-item{
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+.thumbnail .caption{
+	padding: 20px;
+}
+.no-pull{
+	float: none;
+}
+.thumbnail>img{
+	margin-bottom: 10px;
+}
+.carousel{
+	margin: 20px 0px;
+}
+.carousel-inner>.item>img{
+	width: 100%;
+	max-width: none;
+}
+.btn-action{
+	margin-bottom: 20px;
+}
+.signup-form{
+	background-color: #ffffff;
+}
+.signup-form .input-group{
+	margin-bottom: 10px;
+}
+.wrap-textblock{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	background-color: #166ba7;
+}
+.text-thin{
+	font-weight: 300;
+}
+.wrap-footer a{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: #f6f6f6;
+	border-bottom: 1px solid #f6f6f6;
+}
+.wrap-footer p{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+	body{
+		background-color: #ffffff;
+	}
+	.wrap-nav{
+		height: 50px;
+		background-color: #ffffff;
+	}
+	.wrap-carousel{
+		background-color: #00347a;
+	}
+	.navbar-nav{
+		float: right;
+	}
+	.navbar-nav li>a{
+		height: 30px;
+		padding: 0 15px;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.no-href{
+		line-height: 30px;
+	}
+	.navbar-header{
+		width: 160px;
+		height: 80px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+	.navbar-brand {
+		margin-left: -35px;
+		top: 15px;
+	}
+	.navbar-collapse{
+		background-color: transparent;
+	}
+	.list-items{
+		color: #ffffff;
+		display: inline;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.list-items a{
+		color: #ffffff;
+	}
+	.thumbnail-container{
+		margin-top: 20px;
+	}
+	.btn-action{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.navbar-form{
+		width: 100%;
+		float: right;
+	}
+	.wrap-footer p{
+		text-align: left;
+	}
+}
+
+@media (min-width: 992px){
+	.carousel{
+		margin: 0px;
+	}
+	.thumbnail-container{
+		margin-top: 40px;
+	}
+	.signup-form h4{
+		float: left;
+	}
+	.wrap-signup{
+		padding-top: 10px;
+	}
+	.wrap-footer a{
+		border-bottom: none;
+	}
+}
+
+@media (min-width: 1200px){
+	.list-items{
+		margin-bottom: 30px;
+	}
+	.carousel{
+		height: 268px;
+		overflow: hidden;
+	}
+	.navbar-form{
+		width: 70%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
